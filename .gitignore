@@ -6,6 +6,7 @@
 /.vscode/
 npm-debug.log
 yarn-error.log
+*.sublime-workspace
 
 # Optional ignores
 # /build_staging/

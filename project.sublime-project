@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": [ "node_modules", "build_production", "build_local" ]
+		}
+	],
+	"index_files": false
+}
