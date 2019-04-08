@@ -10,6 +10,9 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
     <body>
-        @yield('body')
+        <div class="page-content">
+            @include('_partials.nav-header')
+            @yield('body')
+        </div>
     </body>
 </html>

@@ -1,0 +1,32 @@
+.page-content {
+    width: $site-width;
+    margin: auto;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.nav-header__brand {
+    font-family: $serif-font;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.nav-header__menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-header__menu-item {
+    list-style: none;
+    font-size: 0.875rem;
+    a {
+        color: $deep-blue;
+        text-decoration: none;
+        padding: 0 10px;
+    }
+}
