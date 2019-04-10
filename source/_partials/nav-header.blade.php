@@ -3,7 +3,7 @@
         Sebastián G.
     </div>
     <ul class="nav-header__menu">
-        <li class="nav-header__menu-item">
+        <li class="nav-header__menu-item nav-header__menu-item--active">
             <a href="">Articulos</a>
         </li>
         <li class="nav-header__menu-item">

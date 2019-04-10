@@ -17,6 +17,8 @@ $jungle-green: #20A284;
 $jungle-green-light: #2BC29F;
 $jungle-green-dark: #16755F;
 
+$page-background: $desert-storm-dark;
+
 /* Fonts */
 $serif-font: 'Volkhov', serif;
 $sans-font: 'IBM Plex Sans', sans-serif;
@@ -25,4 +27,4 @@ $font-base: 16px;
 
 /* Layout */
 $site-width: 600px;
-$background: $desert-storm-dark;
+$mobile-break: 'min-width: 550px';
