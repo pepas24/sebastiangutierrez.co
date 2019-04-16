@@ -3,17 +3,10 @@
         Sebastián G.
     </div>
     <ul class="nav-header__menu">
-        <li class="nav-header__menu-item nav-header__menu-item--active">
-            <a href="">Articulos</a>
-        </li>
-        <li class="nav-header__menu-item">
-            <a href="">Proyectos</a>
-        </li>
-        <li class="nav-header__menu-item">
-            <a href="">Acerca de mi</a>
-        </li>
-        <li class="nav-header__menu-item">
-            <a href="">Github</a>
-        </li>
+        @foreach ( $page->navigation as $nav_item)
+            <li class="nav-header__menu-item">
+                <a href="{{ $nav_item->root }}">{{ $nav_item->name }}</a>
+            </li>
+        @endforeach
     </ul>
 </div>
