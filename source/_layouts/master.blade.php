@@ -13,5 +13,6 @@
             @include('_partials.nav-header')
             @yield('body')
         </div>
+        <script src="/assets/prism.js"></script>
     </body>
 </html>

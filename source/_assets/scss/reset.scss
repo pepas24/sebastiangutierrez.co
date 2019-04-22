@@ -7,7 +7,12 @@
 body {
     font-family: $sans-font;
     font-size: $font-base;
+    color: $deep-blue;
     background-color: $page-background;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4 {
+    color: $big-stone;
 }

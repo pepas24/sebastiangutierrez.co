@@ -30,6 +30,8 @@
 .nav-header__menu {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-bottom: 0px;
 }
 
 .nav-header__menu-item {
@@ -82,6 +84,7 @@
 .post__title {
     max-width: 470px;
     font-family: $serif-font;
+    margin-top: 0;
     margin-bottom: 1rem;
 }
 
@@ -96,13 +99,16 @@
 
 .post__excerpt {
     max-width: 470px;
+    p {
+        margin-bottom: 0;
+    }
 }
 
 .post_date-tag {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-end;
     @media screen and ($mobile-break) {
         text-align: center;
     }
@@ -117,4 +123,8 @@
     @media screen and ($mobile-break) {
         margin-top: 0;
     }
+}
+
+.post-content {
+    margin-bottom: 54px;
 }
