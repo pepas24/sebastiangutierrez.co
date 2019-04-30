@@ -141,3 +141,39 @@
 .post-content {
     margin-bottom: 54px;
 }
+
+.inpost-pagination {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: outside none none;
+    padding: 40px 0;
+    border-top: 1px solid rgba($deep-blue, .5);
+    @media screen and ($mobile-break) {
+        flex-direction: row;
+    }
+    li {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 30px;
+        @media screen and ($mobile-break) {
+            max-width: 50%;
+        }
+        span {
+            font-size: 18px;
+        }
+    }
+    a {
+        font-family: $mono-font;
+        text-decoration: none;
+        color: $deep-blue-light;
+        font-size: 14px;
+        transition: color .3s ease;
+        &:hover {
+            color: $deep-blue-dark;
+        }
+    }
+}
