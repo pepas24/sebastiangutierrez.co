@@ -5,13 +5,13 @@
     <h1 class="page__title">Artículos</h1>
 
     <div class="post-list">
-        @for ($i = 0; $i < 10; $i++)
-            <a class="post-link" href="#" title="Ver artículo completo">
+        @foreach ($posts as $post)
+            <a class="post-link" href="{{ $post->getPath() }}" title="Ver artículo completo">
                 <article class="post-container">
-                    <h2 class="post__title">Configurar Sublime Text 3 para projectos Vue</h2>
+                    <h2 class="post__title">{{ $post->title }}</h2>
                     <div class="post__extra-info">
                         <div class="post__excerpt">
-                            <p>How to set up VS Code from zero to a perfect tool for JavaScript development</p>
+                            <p>{{ $post->excerpt }}</p>
                         </div>
                         <div class="post_date-tag">
                             <time class="post__date">25 Ago. 2018</time>
@@ -20,7 +20,7 @@
                     </div>
                 </article>
             </a>
-        @endfor
+        @endforeach
     </div>
 
 </section>

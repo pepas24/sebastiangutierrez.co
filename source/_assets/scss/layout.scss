@@ -21,6 +21,10 @@
     font-size: 1.5rem;
     color: #000;
     margin-bottom: 12px;
+    a {
+        text-decoration: none;
+        color: $big-stone;
+    }
     @media screen and ($mobile-break) {
         flex-direction: row;
         margin-bottom: 0;
@@ -61,11 +65,20 @@
 
 .post-link {
     text-decoration: none;
-    color: inherit;
+    color: $deep-blue;
     transition: all .4s ease;
     display: block;
-    :hover {
-        color: $deep-blue;
+    h2 {
+        transition: color .3s ease;
+    }
+    &:hover {
+        h2 {
+            color: rgba($big-stone, .8);
+        }
+        color: $deep-blue-dark;
+    }
+    &:last-child .post-container {
+        border-bottom: none;
     }
 }
 

@@ -1,6 +1,6 @@
 <div class="nav-header">
     <div class="nav-header__brand">
-        Sebastián G.
+        <a href="/">Sebastián G.</a>
     </div>
     <ul class="nav-header__menu">
         @foreach ( $page->navigation as $nav_item)
