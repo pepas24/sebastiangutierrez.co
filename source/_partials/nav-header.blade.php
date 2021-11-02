@@ -1,7 +1,4 @@
 <div class="nav-header">
-    <div class="nav-header__brand">
-        <a href="/">Sebastián G.</a>
-    </div>
     <ul class="nav-header__menu">
         @foreach ( $page->navigation as $nav_item)
             <li class="nav-header__menu-item">

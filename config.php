@@ -9,8 +9,12 @@ return [
     ],
     'navigation' => [
       [
-        'name' => 'Artículos',
+        'name' => 'Inicio',
         'root' => '/'
+      ],
+      [
+        'name' => 'Blog',
+        'root' => '/blog'
       ],
       [
         'name' => 'Proyectos',

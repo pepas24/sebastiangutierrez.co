@@ -9,3 +9,19 @@
 .tag--vue {
     color: $jungle-green;
 }
+
+.link-text {
+    background-image: linear-gradient(
+        to bottom,
+        currentColor 0,
+        currentColor 100%
+    );
+    background-size: 0 2px;
+    background-repeat: no-repeat;
+    background-position: 0 1.2em;
+    display: inline;
+    transition: background-size 0.35s ease-out;
+}
+.post-link:hover .link-text {
+    background-size: 100% 3px;
+}
