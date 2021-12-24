@@ -1,10 +1,22 @@
 @extends('_layouts.master')
 
+@push('meta')
+    <meta property="og:title" content="{{ $page->title }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ $page->getUrl() }}"/>
+    <meta property="og:description" content="{{ $page->excerpt }}" />
+@endpush
+
 @section('body')
 <main class="post-content">
     <div>
         <div style="margin-bottom: 32px">
-            <h1 class="page__title" style="margin-bottom: 0px">{{ $page->title }}</h1>
+            <h1 class="page__title" style="margin-bottom: 0px">
+                {{ $page->title }}
+                @if (!$page->published)
+                    <small>(draft)</small>
+                @endif
+            </h1>
             <span class="post__date">{{ $page->date }}</span>
         </div>
         @yield('content')

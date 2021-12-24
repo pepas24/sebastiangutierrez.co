@@ -31,5 +31,25 @@
         <a href="/blog" class="show-all-link">Ver todos los artículos →</a>
     </div>
 
+    <h2 class="page__title">Proyectos destacados</h2>
+
+    <div class="post-list">
+        @foreach ($projects as $project)
+            <a class="post-link" href="{{ $project->getPath() }}" title="Ver artículo completo">
+                <article class="post-container project-container">
+                    <img src="/assets/images/{{ $project->image }}" alt="">
+                    <div>
+                        <h3 class="post__title link-text">{{ $project->title }}</h3>
+                        <div class="post__extra-info">
+                            <div class="post__excerpt">
+                                <p>{{ $project->excerpt }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </a>
+        @endforeach
+    </div>
+
 </section>
 @endsection

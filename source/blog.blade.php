@@ -14,7 +14,7 @@
                             <p>{{ $post->excerpt }}</p>
                         </div>
                         <div class="post_date">
-                            <time class="post__date">25 Ago. 2018</time>
+                            <time class="post__date">{{ $post->date }}</time>
                         </div>
                     </div>
                 </article>

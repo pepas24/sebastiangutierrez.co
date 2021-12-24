@@ -2,7 +2,9 @@
 
 return [
     'production' => false,
-    'baseUrl' => '',
+    'baseUrl' => 'localhost:3000/',
+    'siteName' => 'Sebastian Gutierrez',
+    'siteDescription' => 'Lorem!',
     'collections' => [
       'posts',
       'projects'
@@ -17,12 +19,12 @@ return [
         'root' => '/blog'
       ],
       [
-        'name' => 'Proyectos',
-        'root' => '/projects'
-      ],
-      [
         'name' => 'Sobre mi',
         'root' => '/about'
+      ],
+      [
+        'name' => 'LinkedIn',
+        'root' => 'https://www.linkedin.com/in/sebastian-gutierrez-correa/'
       ],
       [
         'name' => 'GitHub',

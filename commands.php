@@ -19,12 +19,9 @@ function add ($collection, $name) {
   $template = "---
 extends: _layouts.$collection
 title: $name
+description: 
 date: $date
-tag:
 ---
-
-# $name
-
 ";
 
   file_put_contents("./source/_$collection_plural/$slug.md", $template);
