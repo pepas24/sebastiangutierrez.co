@@ -24,11 +24,13 @@ return [
       ],
       [
         'name' => 'LinkedIn',
-        'root' => 'https://www.linkedin.com/in/sebastian-gutierrez-correa/'
+        'root' => 'https://www.linkedin.com/in/sebastian-gutierrez-correa/',
+        'external' => true
       ],
       [
         'name' => 'GitHub',
-        'root' => 'https://github.com/pepas24/'
+        'root' => 'https://github.com/pepas24/',
+        'external' => true
       ]
     ]
 ];
