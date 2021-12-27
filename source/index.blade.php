@@ -22,7 +22,7 @@
                                 <p>{{ $post->excerpt }}</p>
                             </div>
                             <div class="post_date">
-                                <time class="post__date">{{ $post->date }}</time>
+                                <time class="post__date">{{ $post->getDate() }}</time>
                             </div>
                         </div>
                     </article>

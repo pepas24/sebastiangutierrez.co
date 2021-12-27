@@ -17,7 +17,7 @@
                     <small>(draft)</small>
                 @endif
             </h1>
-            <span class="post__date">{{ $page->date }}</span>
+            <span class="post__date">{{ $page->getDate() }}</span>
         </div>
         @yield('content')
     </div>

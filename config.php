@@ -32,5 +32,9 @@ return [
         'root' => 'https://github.com/pepas24/',
         'external' => true
       ]
-    ]
+    ],
+    'getDate' => function ($page) {
+      setlocale(LC_ALL, 'es_CO.UTF8');
+      return strftime('%d %b. %Y', $page->date);
+    }
 ];
