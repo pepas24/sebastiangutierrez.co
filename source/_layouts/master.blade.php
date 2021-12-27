@@ -15,14 +15,14 @@
 
         <link rel="home" href="{{ $page->baseUrl }}">
 
-        <link rel="apple-touch-icon" sizes="180x180" href="{{ $page->baseUrl }}assets/meta/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ $page->baseUrl }}assets/meta/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{ $page->baseUrl }}assets/meta/favicon-16x16.png">
-        <link rel="manifest" href="{{ $page->baseUrl }}assets/meta/site.webmanifest">
-        <link rel="mask-icon" href="{{ $page->baseUrl }}assets/meta/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="shortcut icon" href="{{ $page->baseUrl }}assets/meta/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/meta/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/meta/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/meta/favicon-16x16.png">
+        <link rel="manifest" href="/assets/meta/site.webmanifest">
+        <link rel="mask-icon" href="/assets/meta/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="/assets/meta/favicon.ico">
         <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="msapplication-config" content="{{ $page->baseUrl }}assets/meta/browserconfig.xml">
+        <meta name="msapplication-config" content="/assets/meta/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
 
         <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700,700i|IBM+Plex+Sans:400,400i,700,700i|Volkhov:400,400i,700,700i" rel="stylesheet">
